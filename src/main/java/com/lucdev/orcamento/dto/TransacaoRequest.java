@@ -20,3 +20,4 @@ public record TransacaoRequest(
         Categoria categoria
 ) {
 }
+//(define o JSON de entrada e as validações)

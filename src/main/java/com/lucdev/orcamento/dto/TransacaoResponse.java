@@ -4,7 +4,7 @@ import com.lucdev.orcamento.model.Transacao;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-
+//(o método de(Transacao) converte entidade em resposta)
 public record TransacaoResponse(
         Long id,
         String descricao,

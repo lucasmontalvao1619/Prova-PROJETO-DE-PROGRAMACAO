@@ -9,8 +9,8 @@ import jakarta.persistence.Id;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-
-@Entity
+//(a @Entity que vira tabela no H2)
+@Entity//essa classe significa uma tabela 
 public class Transacao {
 
     @Id

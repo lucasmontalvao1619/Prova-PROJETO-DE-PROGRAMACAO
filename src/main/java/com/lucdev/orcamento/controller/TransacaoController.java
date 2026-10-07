@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Arrays;
 import java.util.List;
 
-@RestController
+@RestController//@RestController junta @Controller e @ResponseBody. Tudo que os métodos retornam é convertido em JSON
 @RequestMapping("/api")
 public class TransacaoController {
 
